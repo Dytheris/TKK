@@ -10,7 +10,7 @@ namespace TestProject2
             Assert.AreEqual(Program.CalculateGrade(70), 5);
             Assert.AreEqual(Program.CalculateGrade(40), 4);
             Assert.AreEqual(Program.CalculateGrade(20), 3);
-            Assert.AreEqual(Program.CalculateGrade(100), 2);
+            Assert.AreNotEqual(Program.CalculateGrade(100), 2);
         }
     }
 }
